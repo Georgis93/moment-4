@@ -1,0 +1,128 @@
+body{
+    background-image:linear-gradient(to left, yellow 80% ,green);
+ }
+ 
+ #rubrik1
+ {
+    color:red;
+    text-align:center;
+ }
+ #rubrik1 hr{
+    border:solid ;
+ }
+ .bild{
+    width: 150px;
+    height: 150px;
+    margin:auto;
+    box-shadow:black 10px 20px;
+
+ }
+ .bildplats{
+    width:100%;
+    display: flex;
+    justify-content:center;
+ }
+ .Textbox1{
+    background-image:linear-gradient( yellow , green 95%);
+    box-shadow: black 10px 20px;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+ }
+ .Textbox2{
+    background-image:linear-gradient( green ,yellow );
+    box-shadow: black 10px 20px;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+
+ }
+ .Textbox3{
+    background-image:linear-gradient(green, yellow ,green );
+    box-shadow: black 10px 20px;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+ }
+ .Textbox1 h3{
+    background:radial-gradient(rgb(244, 146, 146) 50%, rgb(92, 6, 21));
+    border-radius:50%;
+    height: 50px;
+    padding: auto;
+    text-align: center;
+
+ }
+ .Textbox2 h3{
+    background:radial-gradient(rgb(244, 146, 146) 50%, rgb(92, 6, 21));
+    border-radius:50%;
+    height: 50px;
+    padding: auto;
+    text-align: center;
+
+ }
+ .Textbox3 h3{
+    background:radial-gradient(rgb(244, 146, 146) 50%, rgb(92, 6, 21));
+    border-radius:50%;
+    height: 50px;
+    padding: auto;
+    text-align: center;
+
+ }
+ .Textbox1 h3::first-letter{
+     font-size: 40px;
+     color:yellow;
+ }
+ .Textbox2 h3::first-letter{
+    font-size: 40px;
+    color:yellow;
+ }
+ .Textbox3 h3::first-letter{
+    font-size: 40px;
+    color:yellow;
+ }
+ #rubrik2{
+   color:black;
+   text-align: center;
+ }
+ #rubrik2 hr{
+   border: solid;
+
+ }
+ .bildplats{
+   width:100%;
+   display: flex;
+   justify-content:center;
+}
+
+.Textbox4{
+  background-image:linear-gradient(to right,yellow 80%, green  );
+   box-shadow: black 10px 20px;
+   width: 300px;
+   margin: auto;
+   margin-top: 40px;
+}
+.Textbox4 h3{
+   background:radial-gradient(rgb(244, 146, 146) 50%, rgb(92, 6, 21));
+   border-radius:50%;
+   height: 50px;
+   padding: auto;
+   text-align: center;
+}
+.Textbox p::first-letter{
+   font-size: 40px;
+
+}
+.Textbox5{
+    background-image:linear-gradient( green, yellow, green, yellow );
+    box-shadow: black 10px 20px;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+ }
+ .Textbox5 h3{
+    background:radial-gradient(rgb(244, 146, 146) 50%, rgb(92, 6, 21));
+    border-radius:50%;
+    height: 50px;
+    padding: auto;
+    text-align: center;
+ }

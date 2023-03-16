@@ -1,0 +1,76 @@
+ body{
+    background-color: yellow;
+ }
+ #rubrik1
+ {
+    color:red;
+    text-align:center;
+ }
+ #rubrik1 hr{
+    border:solid ;
+ }
+ .bild{
+    width: 150px;
+    height: 150px;
+    margin:auto;
+    box-shadow:black 10px 20px;
+
+ }
+ .bildplats{
+    width:100%;
+    display: flex;
+    justify-content:center;
+ }
+ .Textbox{
+    background-color: white;
+    box-shadow: black 10px 20px;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+ }
+ .Textbox h3{
+    background:radial-gradient(rgb(244, 146, 146) 50%, rgb(92, 6, 21));
+    border-radius:50%;
+    height: 50px;
+    padding: auto;
+    text-align: center;
+
+ }
+ .Textbox h3::first-letter{
+     font-size: 40px;
+     color:yellow;
+ }
+
+ #rubrik2{
+   color:black;
+   text-align: center;
+ }
+ #rubrik2 hr{
+   border: solid;
+
+ }
+ .bildplats{
+   width:100%;
+   display: flex;
+   justify-content:center;
+}
+
+.Textbox{
+   background-color: white;
+   box-shadow: black 10px 20px;
+   width: 300px;
+   margin: auto;
+   margin-top: 40px;
+}
+.Textbox h3{
+   background:radial-gradient(rgb(244, 146, 146) 50%, rgb(92, 6, 21));
+   border-radius:50%;
+   height: 50px;
+   padding: auto;
+   text-align: center;
+}
+.Textbox p::first-letter{
+   font-size: 40px;
+
+}
+
